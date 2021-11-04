@@ -40,7 +40,8 @@ public class QuanLyPhong : MonoBehaviour
             {
                 phong.transform.GetChild(0).GetComponent<TMP_Text>().text = "ID: " + (countRoom).ToString();
             }
-            phong.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => JoinRoom(int.Parse(phong.transform.GetChild(0).GetComponent<TMP_Text>().text.Substring(4, 2))));
+            phong.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => 
+            JoinRoom(int.Parse(phong.transform.GetChild(0).GetComponent<TMP_Text>().text.Substring(4, 2))));
 
             countRoom++;
         }
@@ -76,7 +77,8 @@ public class QuanLyPhong : MonoBehaviour
         {
             phong.transform.GetChild(0).GetComponent<TMP_Text>().text = "ID: " + (countRoom).ToString() + "Ten Phong: " + inputRoomName;
         }
-        phong.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => JoinRoom(int.Parse(phong.transform.GetChild(0).GetComponent<TMP_Text>().text.Substring(4, 2))));
+        phong.transform.GetChild(1).GetComponent<Button>().onClick.AddListener(() => 
+        JoinRoom(int.Parse(phong.transform.GetChild(0).GetComponent<TMP_Text>().text.Substring(4, 2))));
 
         countRoom++;
     }
