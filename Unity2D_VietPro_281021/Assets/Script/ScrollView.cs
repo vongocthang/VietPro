@@ -109,8 +109,13 @@ public class ScrollView : MonoBehaviour
 
     public void RemoveButton()
     {
-        GameObject[] mangButton;
-        mangButton = GameObject.FindGameObjectsWithTag("Respawn");
+        for(int i=scrollMenu.transform.GetChild(0).GetChild(0).childCount-1; i>=0;i--)
+        {
+            Destroy(scrollMenu.transform.GetChild(0).GetChild(0).GetChild(i).gameObject);
+            break;
+        }
+       // GameObject[] mangButton;
+       /* mangButton = GameObject.FindGameObjectsWithTag("Respawn");
         int max = 0;
         int location = 0;
         for(int i=0; i<mangButton.Length; i++)
@@ -125,7 +130,7 @@ public class ScrollView : MonoBehaviour
 
         Destroy(mangButton[location]);
 
-        countImageShow--;
+        countImageShow--;*/
     }
 
     public void ZoomBigImage(int idImage)
