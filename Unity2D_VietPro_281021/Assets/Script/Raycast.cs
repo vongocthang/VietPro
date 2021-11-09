@@ -5,6 +5,7 @@ using UnityEngine;
 public class Raycast : MonoBehaviour
 {
     public GameObject doiTuong;
+    public bool drag;
     //Ray ray;
     //RaycastHit hit;
 
@@ -19,7 +20,6 @@ public class Raycast : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-
             Debug.Log("OK");
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -40,9 +40,23 @@ public class Raycast : MonoBehaviour
                     doiTuong.transform.position = hit.point;
                 }
             }
-
-            
+            drag = true;
+ 
         }
+        //if (Input.GetMouseButton(0))
+        //{
+        //    if (drag == true)
+        //    {
+        //        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //        RaycastHit hit2;
+
+        //        doiTuong.transform.position = hit2.point;
+        //    }
+        //}
+        //if (Input.GetMouseButtonUp(0))
+        //{
+        //    drag = false;
+        //}
     }
 
     public void ChonDoiTuong()
@@ -72,5 +86,10 @@ public class Raycast : MonoBehaviour
             Debug.Log("Di chuyen doi tuong");
             doiTuong.transform.position = Input.mousePosition;
         }
+    }
+
+    public void DragAndDrop()
+    {
+        
     }
 }
