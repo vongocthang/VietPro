@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 7ef27e858ac494747a261550f88aa4a2
+timeCreated: 1512719216
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: robotBoy_idle_0
+    21300002: robotBoy_idle_1
+    21300004: robotBoy_idle_2
+    21300006: robotBoy_idle_3
+    21300008: robotBoy_idle_4
+    21300010: robotBoy_idle_5
+    21300012: robotBoy_idle_6
+    21300014: robotBoy_idle_7
+    21300016: robotBoy_idle_8
+    21300018: robotBoy_idle_9
+    21300020: robotBoy_idle_10
+    21300022: robotBoy_idle_11
+    21300024: robotBoy_idle_12
+    21300026: robotBoy_idle_13
+    21300028: robotBoy_idle_14
+    21300030: robotBoy_idle_15
+    21300032: robotBoy_idle_16
+    21300034: robotBoy_idle_17
+    21300036: robotBoy_idle_18
+    21300038: robotBoy_idle_19
+    21300040: robotBoy_idle_20
+    21300042: robotBoy_idle_21
+    21300044: robotBoy_idle_22
+    21300046: robotBoy_idle_23
+    21300048: robotBoy_idle_24
+    21300050: robotBoy_idle_25
+    21300052: robotBoy_idle_26
+    21300054: robotBoy_idle_27
+    21300056: robotBoy_idle_28
+    21300058: robotBoy_idle_29
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 32, y: 0, z: 0, w: 32}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robotBoy_idle_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1785
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1785
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1785
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1785
+        width: 90
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_4
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1785
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1785
+        width: 90
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1785
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_8
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1510
+        width: 90
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_10
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_11
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_12
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1510
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1235
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1235
+        width: 90
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_16
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1235
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_17
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1235
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1235
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1235
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_20
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1235
+        width: 89
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_22
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_24
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 960
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 960
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_26
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 960
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_27
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 960
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 685
+        width: 88
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_idle_29
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 685
+        width: 87
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -834, y: -117}
+      - {x: -926, y: -117}
+      - {x: -926, y: -322}
+      - {x: -913, y: -341}
+      - {x: -864, y: -341}
+      - {x: -861, y: -337}
+      - {x: -847, y: -313}
+      - {x: -834, y: -232}
+    - - {x: -559, y: -186}
+      - {x: -559, y: -120}
+      - {x: -569, y: -117}
+      - {x: -650, y: -117}
+      - {x: -650, y: -341}
+      - {x: -590, y: -341}
+      - {x: -585, y: -338}
+      - {x: -589, y: -327}
+      - {x: -594, y: -326}
+      - {x: -596, y: -249}
+    - - {x: -925, y: 158}
+      - {x: -925, y: -66}
+      - {x: -857, y: -66}
+      - {x: -833, y: 53}
+      - {x: -833, y: 149}
+      - {x: -860, y: 158}
+    - - {x: -644, y: 158}
+      - {x: -650, y: 148}
+      - {x: -650, y: -24}
+      - {x: -640, y: -66}
+      - {x: -587, y: -66}
+      - {x: -558, y: -24}
+      - {x: -558, y: 158}
+    - - {x: -283, y: 119}
+      - {x: -296, y: 155}
+      - {x: -319, y: 158}
+      - {x: -368, y: 158}
+      - {x: -375, y: 155}
+      - {x: -375, y: -13}
+      - {x: -362, y: -66}
+      - {x: -314, y: -66}
+      - {x: -310, y: -63}
+      - {x: -314, y: -52}
+      - {x: -283, y: 91}
+    - - {x: -102, y: 158}
+      - {x: -102, y: -25}
+      - {x: -92, y: -60}
+      - {x: -83, y: -66}
+      - {x: -19, y: -66}
+      - {x: -9, y: 5}
+      - {x: -9, y: 158}
+    - - {x: 175, y: 158}
+      - {x: 175, y: 12}
+      - {x: 184, y: -61}
+      - {x: 193, y: -66}
+      - {x: 252, y: -66}
+      - {x: 266, y: 22}
+      - {x: 266, y: 148}
+      - {x: 264, y: 158}
+    - - {x: 456, y: 158}
+      - {x: 450, y: 146}
+      - {x: 450, y: -32}
+      - {x: 456, y: -66}
+      - {x: 531, y: -66}
+      - {x: 541, y: -18}
+      - {x: 541, y: 142}
+      - {x: 535, y: 158}
+    - - {x: 807, y: 158}
+      - {x: 728, y: 158}
+      - {x: 722, y: 157}
+      - {x: 722, y: -19}
+      - {x: 735, y: -66}
+      - {x: 788, y: -66}
+      - {x: 792, y: -55}
+      - {x: 818, y: 54}
+      - {x: 818, y: 139}
+    - - {x: -847, y: 345}
+      - {x: -830, y: 362}
+      - {x: -830, y: 385}
+      - {x: -839, y: 423}
+      - {x: -852, y: 434}
+      - {x: -918, y: 434}
+      - {x: -924, y: 432}
+      - {x: -924, y: 213}
+      - {x: -921, y: 209}
+      - {x: -858, y: 209}
+      - {x: -856, y: 211}
+      - {x: -863, y: 223}
+      - {x: -869, y: 307}
+      - {x: -872, y: 325}
+    - - {x: -645, y: 434}
+      - {x: -649, y: 398}
+      - {x: -649, y: 242}
+      - {x: -644, y: 209}
+      - {x: -554, y: 209}
+      - {x: -554, y: 434}
+    - - {x: -361, y: 434}
+      - {x: -374, y: 426}
+      - {x: -374, y: 255}
+      - {x: -364, y: 213}
+      - {x: -353, y: 209}
+      - {x: -296, y: 209}
+      - {x: -281, y: 267}
+      - {x: -281, y: 415}
+      - {x: -298, y: 434}
+    - - {x: -99, y: 434}
+      - {x: -99, y: 209}
+      - {x: -20, y: 209}
+      - {x: -6, y: 275}
+      - {x: -6, y: 411}
+      - {x: -25, y: 434}
+    - - {x: 185, y: 433}
+      - {x: 176, y: 428}
+      - {x: 176, y: 209}
+      - {x: 268, y: 209}
+      - {x: 268, y: 433}
+    - - {x: 461, y: 434}
+      - {x: 454, y: 414}
+      - {x: 450, y: 389}
+      - {x: 450, y: 278}
+      - {x: 456, y: 219}
+      - {x: 467, y: 209}
+      - {x: 530, y: 209}
+      - {x: 543, y: 341}
+      - {x: 543, y: 430}
+      - {x: 522, y: 434}
+    - - {x: 727, y: 433}
+      - {x: 725, y: 432}
+      - {x: 725, y: 209}
+      - {x: 810, y: 209}
+      - {x: 818, y: 294}
+      - {x: 818, y: 427}
+      - {x: 798, y: 433}
+    - - {x: -830, y: 682}
+      - {x: -832, y: 696}
+      - {x: -849, y: 708}
+      - {x: -923, y: 708}
+      - {x: -924, y: 707}
+      - {x: -924, y: 504}
+      - {x: -913, y: 484}
+      - {x: -864, y: 484}
+      - {x: -859, y: 487}
+      - {x: -864, y: 498}
+      - {x: -869, y: 499}
+      - {x: -830, y: 623}
+    - - {x: -647, y: 708}
+      - {x: -649, y: 699}
+      - {x: -649, y: 505}
+      - {x: -640, y: 484}
+      - {x: -577, y: 484}
+      - {x: -554, y: 637}
+      - {x: -554, y: 698}
+      - {x: -573, y: 708}
+    - - {x: -300, y: 710}
+      - {x: -359, y: 710}
+      - {x: -374, y: 701}
+      - {x: -374, y: 506}
+      - {x: -373, y: 484}
+      - {x: -306, y: 484}
+      - {x: -281, y: 594}
+      - {x: -281, y: 705}
+    - - {x: -84, y: 710}
+      - {x: -99, y: 701}
+      - {x: -99, y: 537}
+      - {x: -88, y: 484}
+      - {x: -21, y: 484}
+      - {x: -6, y: 561}
+      - {x: -6, y: 699}
+      - {x: -34, y: 710}
+    - - {x: 193, y: 710}
+      - {x: 174, y: 695}
+      - {x: 174, y: 509}
+      - {x: 176, y: 484}
+      - {x: 260, y: 484}
+      - {x: 269, y: 581}
+      - {x: 269, y: 708}
+      - {x: 257, y: 710}
+    - - {x: 451, y: 708}
+      - {x: 451, y: 484}
+      - {x: 538, y: 484}
+      - {x: 544, y: 559}
+      - {x: 544, y: 708}
+    - - {x: 730, y: 708}
+      - {x: 726, y: 689}
+      - {x: 726, y: 510}
+      - {x: 734, y: 486}
+      - {x: 738, y: 484}
+      - {x: 819, y: 484}
+      - {x: 819, y: 708}
+    - - {x: -371, y: 983}
+      - {x: -375, y: 967}
+      - {x: -375, y: 758}
+      - {x: -296, y: 758}
+      - {x: -283, y: 789}
+      - {x: -283, y: 977}
+      - {x: -304, y: 983}
+    - - {x: -100, y: 983}
+      - {x: -100, y: 799}
+      - {x: -90, y: 758}
+      - {x: -20, y: 758}
+      - {x: -6, y: 827}
+      - {x: -6, y: 983}
+    - - {x: 819, y: 865}
+      - {x: 819, y: 958}
+      - {x: 806, y: 983}
+      - {x: 731, y: 983}
+      - {x: 726, y: 960}
+      - {x: 726, y: 768}
+      - {x: 727, y: 758}
+      - {x: 786, y: 758}
+      - {x: 790, y: 762}
+      - {x: 786, y: 773}
+      - {x: 781, y: 774}
+    - - {x: -842, y: 983}
+      - {x: -924, y: 983}
+      - {x: -926, y: 979}
+      - {x: -926, y: 798}
+      - {x: -917, y: 761}
+      - {x: -892, y: 759}
+      - {x: -858, y: 759}
+      - {x: -853, y: 761}
+      - {x: -834, y: 858}
+      - {x: -834, y: 980}
+    - - {x: -558, y: 944}
+      - {x: -562, y: 961}
+      - {x: -579, y: 979}
+      - {x: -604, y: 982}
+      - {x: -608, y: 983}
+      - {x: -649, y: 983}
+      - {x: -650, y: 977}
+      - {x: -650, y: 848}
+      - {x: -641, y: 780}
+      - {x: -635, y: 759}
+      - {x: -589, y: 759}
+      - {x: -585, y: 762}
+      - {x: -588, y: 773}
+      - {x: -558, y: 888}
+    - - {x: 216, y: 839}
+      - {x: 224, y: 838}
+      - {x: 228, y: 839}
+      - {x: 270, y: 909}
+      - {x: 270, y: 947}
+      - {x: 267, y: 962}
+      - {x: 242, y: 983}
+      - {x: 185, y: 983}
+      - {x: 174, y: 968}
+      - {x: 174, y: 801}
+      - {x: 183, y: 759}
+      - {x: 237, y: 759}
+      - {x: 243, y: 770}
+      - {x: 224, y: 834}
+      - {x: 218, y: 839}
+    - - {x: 546, y: 905}
+      - {x: 546, y: 960}
+      - {x: 544, y: 968}
+      - {x: 512, y: 983}
+      - {x: 474, y: 983}
+      - {x: 455, y: 978}
+      - {x: 450, y: 942}
+      - {x: 450, y: 793}
+      - {x: 455, y: 759}
+      - {x: 513, y: 759}
+      - {x: 515, y: 762}
+      - {x: 511, y: 773}
+      - {x: 506, y: 774}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

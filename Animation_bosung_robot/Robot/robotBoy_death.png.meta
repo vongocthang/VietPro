@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1a9c4b71f2c0f344f8f376655ddd8beb
+timeCreated: 1513825248
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: robotBoy_death_0
+    21300002: robotBoy_death_1
+    21300004: robotBoy_death_2
+    21300006: robotBoy_death_3
+    21300008: robotBoy_death_4
+    21300010: robotBoy_death_5
+    21300012: robotBoy_death_6
+    21300014: robotBoy_death_7
+    21300016: robotBoy_death_8
+    21300018: robotBoy_death_9
+    21300020: robotBoy_death_10
+    21300022: robotBoy_death_11
+    21300024: robotBoy_death_12
+    21300026: robotBoy_death_13
+    21300028: robotBoy_death_14
+    21300030: robotBoy_death_15
+    21300032: robotBoy_death_16
+    21300034: robotBoy_death_17
+    21300036: robotBoy_death_18
+    21300038: robotBoy_death_19
+    21300040: robotBoy_death_20
+    21300042: robotBoy_death_21
+    21300044: robotBoy_death_22
+    21300046: robotBoy_death_23
+    21300048: robotBoy_death_24
+    21300050: robotBoy_death_25
+    21300052: robotBoy_death_26
+    21300054: robotBoy_death_27
+    21300056: robotBoy_death_28
+    21300058: robotBoy_death_29
+    21300060: robotBoy_death_30
+    21300062: robotBoy_death_31
+    21300064: robotBoy_death_32
+    21300066: robotBoy_death_33
+    21300068: robotBoy_death_34
+    21300070: robotBoy_death_35
+    21300072: robotBoy_death_36
+    21300074: robotBoy_death_37
+    21300076: robotBoy_death_38
+    21300078: robotBoy_death_39
+    21300080: robotBoy_death_40
+    21300082: robotBoy_death_41
+    21300084: robotBoy_death_42
+    21300086: robotBoy_death_43
+    21300088: robotBoy_death_44
+    21300090: robotBoy_death_45
+    21300092: robotBoy_death_46
+    21300094: robotBoy_death_47
+    21300096: robotBoy_death_48
+    21300098: robotBoy_death_49
+    21300100: robotBoy_death_50
+    21300102: robotBoy_death_51
+    21300104: robotBoy_death_52
+    21300106: robotBoy_death_53
+    21300108: robotBoy_death_54
+    21300110: robotBoy_death_55
+    21300112: robotBoy_death_56
+    21300114: robotBoy_death_57
+    21300116: robotBoy_death_58
+    21300118: robotBoy_death_59
+    21300120: robotBoy_death_60
+    21300122: robotBoy_death_61
+    21300124: robotBoy_death_62
+    21300126: robotBoy_death_63
+    21300128: robotBoy_death_64
+    21300130: robotBoy_death_65
+    21300132: robotBoy_death_66
+    21300134: robotBoy_death_67
+    21300136: robotBoy_death_68
+    21300138: robotBoy_death_69
+    21300140: robotBoy_death_70
+    21300142: robotBoy_death_71
+    21300144: robotBoy_death_72
+    21300146: robotBoy_death_73
+    21300148: robotBoy_death_74
+    21300150: robotBoy_death_75
+    21300152: robotBoy_death_76
+    21300154: robotBoy_death_77
+    21300156: robotBoy_death_78
+    21300158: robotBoy_death_79
+    21300160: robotBoy_death_80
+    21300162: robotBoy_death_81
+    21300164: robotBoy_death_82
+    21300166: robotBoy_death_83
+    21300168: robotBoy_death_84
+    21300170: robotBoy_death_85
+    21300172: robotBoy_death_86
+    21300174: robotBoy_death_87
+    21300176: robotBoy_death_88
+    21300178: robotBoy_death_89
+    21300180: robotBoy_death_90
+    21300182: robotBoy_death_91
+    21300184: robotBoy_death_92
+    21300186: robotBoy_death_93
+    21300188: robotBoy_death_94
+    21300190: robotBoy_death_95
+    21300192: robotBoy_death_96
+    21300194: robotBoy_death_97
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robotBoy_death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1784
+        width: 256
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1784
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1784
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1784
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_4
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_6
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_9
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_10
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1527
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_13
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_14
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1503
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1240
+        width: 252
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_19
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_20
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_21
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_22
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 954
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_25
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 954
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_26
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 954
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_27
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 954
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_28
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 954
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: robotBoy_death_29
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 954
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

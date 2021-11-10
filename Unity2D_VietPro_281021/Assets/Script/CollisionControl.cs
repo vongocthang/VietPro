@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class CollisionControl : MonoBehaviour
 {
+    PlayerControl player;
+
+    private void Start()
+    {
+        player = this.GetComponent<PlayerControl>();
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Barrel")
@@ -12,12 +19,18 @@ public class CollisionControl : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        player.onGround = true;
+    }
+
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Barrel")
         {
             Debug.Log("Kết thúc va chạm cứng với Thùng hóa chất");
         }
+        player.onGround = false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
