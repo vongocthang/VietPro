@@ -1748,6 +1748,6 @@ MonoBehaviour:
   unlockColor: {r: 0, g: 0.95401525, b: 1, a: 1}
   sample: {fileID: 1288237573}
   levelNumber: 50
-  levelUnlock: 20
+  levelUnlock: 12
   level: []
   inPage: 0

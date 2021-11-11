@@ -403,6 +403,7 @@ MonoBehaviour:
   playerRb: {fileID: 120733221}
   playerAnim: {fileID: 120733218}
   playerSprite: {fileID: 120733219}
+  onGround: 0
 --- !u!114 &120733224
 MonoBehaviour:
   m_ObjectHideFlags: 0
