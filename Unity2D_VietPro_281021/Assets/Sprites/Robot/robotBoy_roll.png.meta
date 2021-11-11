@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 088f66fb7f71d3b4f9fdc7d8bb7e9223
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1516600188899018688
+    second: robotBoy_roll_0
+  - first:
+      213: 5565678927873725010
+    second: robotBoy_roll_1
+  - first:
+      213: 6682182489872857136
+    second: robotBoy_roll_2
+  - first:
+      213: -1445401116365800761
+    second: robotBoy_roll_3
+  - first:
+      213: 7397039861767146865
+    second: robotBoy_roll_4
+  - first:
+      213: -2486064653497371103
+    second: robotBoy_roll_5
+  - first:
+      213: -2303943337169018733
+    second: robotBoy_roll_6
+  - first:
+      213: 5333483827906700063
+    second: robotBoy_roll_7
+  - first:
+      213: 4237347080845066518
+    second: robotBoy_roll_8
+  - first:
+      213: 7709020439813320944
+    second: robotBoy_roll_9
+  - first:
+      213: -546577961632653803
+    second: robotBoy_roll_10
+  - first:
+      213: -5696029889857944487
+    second: robotBoy_roll_11
+  - first:
+      213: -3508734075152910753
+    second: robotBoy_roll_12
+  - first:
+      213: -6096789424752938181
+    second: robotBoy_roll_13
+  - first:
+      213: -689276147124637594
+    second: robotBoy_roll_14
+  - first:
+      213: 386985184681725692
+    second: robotBoy_roll_15
+  - first:
+      213: -1019200892677994852
+    second: robotBoy_roll_16
+  - first:
+      213: 5330218706231558472
+    second: robotBoy_roll_17
+  - first:
+      213: 6026950851665911928
+    second: robotBoy_roll_18
+  - first:
+      213: -67189368058962221
+    second: robotBoy_roll_19
+  - first:
+      213: 6836064521287289834
+    second: robotBoy_roll_20
+  - first:
+      213: 1355403566821438798
+    second: robotBoy_roll_21
+  - first:
+      213: -2270713655955445460
+    second: robotBoy_roll_22
+  - first:
+      213: 568692894671027968
+    second: robotBoy_roll_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robotBoy_roll_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1781
+        width: 162
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048326ad924f3fae0800000000000000
+      internalID: -1516600188899018688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_1
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1782
+        width: 178
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525ac52f734d3d40800000000000000
+      internalID: 5565678927873725010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1784
+        width: 182
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f4312291ebbc50800000000000000
+      internalID: 6682182489872857136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_3
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1785
+        width: 143
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca301db757e0fbe0800000000000000
+      internalID: -1445401116365800761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_4
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1791
+        width: 120
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d0906209097a660800000000000000
+      internalID: 7397039861767146865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_5
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1785
+        width: 107
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12672af8e59bf7dd0800000000000000
+      internalID: -2486064653497371103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_6
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1788
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a96dddbfb600e0800000000000000
+      internalID: -2303943337169018733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_7
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1514
+        width: 124
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f136ba19847540a40800000000000000
+      internalID: 5333483827906700063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1514
+        width: 110
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6110fc738b41eca30800000000000000
+      internalID: 4237347080845066518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1509
+        width: 120
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f07c41fe31fbfa60800000000000000
+      internalID: 7709020439813320944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_10
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1516
+        width: 120
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e14d26d3a2a68f0800000000000000
+      internalID: -546577961632653803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_11
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1516
+        width: 115
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95482097ef2a3f0b0800000000000000
+      internalID: -5696029889857944487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_12
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1515
+        width: 116
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b33fd2f87e4fc0800000000000000
+      internalID: -3508734075152910753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_13
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1516
+        width: 116
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b333e33025ad36ba0800000000000000
+      internalID: -6096789424752938181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1232
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6607c720ff23f66f0800000000000000
+      internalID: -689276147124637594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1236
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe0b42a9f8de5500800000000000000
+      internalID: 386985184681725692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_16
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1239
+        width: 116
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96ca2520321bd1f0800000000000000
+      internalID: -1019200892677994852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_17
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1236
+        width: 164
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84103103cadb8f940800000000000000
+      internalID: 5330218706231558472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_18
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1225
+        width: 200
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870e8401ed704a350800000000000000
+      internalID: 6026950851665911928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_19
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1228
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de992030ab411ff0800000000000000
+      internalID: -67189368058962221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_20
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 1236
+        width: 182
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebcafc86749ede50800000000000000
+      internalID: 6836064521287289834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 965
+        width: 134
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4570bfdc5c5fc210800000000000000
+      internalID: 1355403566821438798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 960
+        width: 148
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29a52ee5fdcc70e0800000000000000
+      internalID: -2270713655955445460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robotBoy_roll_23
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 959
+        width: 159
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fb725bc2764e700800000000000000
+      internalID: 568692894671027968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

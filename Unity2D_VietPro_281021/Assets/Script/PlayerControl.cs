@@ -34,7 +34,8 @@ public class PlayerControl : MonoBehaviour
             {
                 playerRb.velocity = new Vector2(-80f * Time.deltaTime, 0f);
                 playerSprite.flipX = true;
-                playerAnim.Play("walk");
+
+                playerAnim.SetInteger("check", 1);
             }
         }
         if (uiControl.moveRight == true)
@@ -43,7 +44,8 @@ public class PlayerControl : MonoBehaviour
             {
                 playerRb.velocity = new Vector2(80f * Time.deltaTime, 0f);
                 playerSprite.flipX = false;
-                playerAnim.Play("walk");
+
+                playerAnim.SetInteger("check", 1);
             }
         }
         if (uiControl.jump == true)
@@ -51,9 +53,16 @@ public class PlayerControl : MonoBehaviour
             if (onGround == true)
             {
                 playerRb.velocity = new Vector2(0f, 12f);
-                
+
+                playerAnim.SetInteger("check", 3);
             }
             uiControl.jump = false;
+        }
+
+
+        if (uiControl.moveLeft == false && uiControl.moveRight == false)
+        {
+            playerAnim.SetInteger("check", 0);
         }
     }
 }
