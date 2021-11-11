@@ -28,41 +28,91 @@ public class PlayerControl : MonoBehaviour
 
     public void Move()
     {
-        if (uiControl.moveLeft == true)
+        if (uiControl.moveLeft == true || Input.GetKey(KeyCode.LeftArrow))
         {
             if (onGround == true)
             {
-                playerRb.velocity = new Vector2(-80f * Time.deltaTime, 0f);
+                playerRb.transform.Translate(Vector2.left * 2 * Time.deltaTime);
                 playerSprite.flipX = true;
 
-                playerAnim.SetInteger("check", 1);
+                playerAnim.SetBool("run", true);
+                playerAnim.SetBool("jump", false);
             }
         }
-        if (uiControl.moveRight == true)
+        if (uiControl.moveRight == true || Input.GetKey(KeyCode.RightArrow))
         {
             if (onGround == true)
             {
-                playerRb.velocity = new Vector2(80f * Time.deltaTime, 0f);
+                playerRb.transform.Translate(Vector2.right * 2 * Time.deltaTime);
                 playerSprite.flipX = false;
 
-                playerAnim.SetInteger("check", 1);
+                playerAnim.SetBool("run", true);
+                playerAnim.SetBool("jump", false);
             }
         }
-        if (uiControl.jump == true)
+        if (uiControl.jump == true || Input.GetKeyDown(KeyCode.UpArrow))
         {
+            Debug.Log("Ok");
             if (onGround == true)
             {
-                playerRb.velocity = new Vector2(0f, 12f);
-
-                playerAnim.SetInteger("check", 3);
+                Debug.Log("Jump");
+                playerRb.AddForce(Vector2.up * 500);
             }
-            uiControl.jump = false;
         }
 
 
         if (uiControl.moveLeft == false && uiControl.moveRight == false)
         {
-            playerAnim.SetInteger("check", 0);
+            playerAnim.SetBool("run", false);
+        }
+
+        if (playerRb.velocity.y == 0)
+        {
+            playerAnim.SetBool("jump", false);
+            uiControl.jump = false;
+        }
+
+        if (playerRb.velocity.y > 0)
+        {
+            playerAnim.SetBool("run", false);
+            playerAnim.SetBool("jump", true);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Barrel")
+        {
+            Debug.Log("Va chạm cứng với Thùng hóa chất");
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        onGround = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Barrel")
+        {
+            Debug.Log("Kết thúc va chạm cứng với Thùng hóa chất");
+        }
+        onGround = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Door")
+        {
+            Debug.Log("Va chạm mềm với Cánh cửa");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Door")
+        {
+            Debug.Log("Kết thúc va chạm mềm với Cánh cửa");
         }
     }
 }

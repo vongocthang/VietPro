@@ -267,7 +267,7 @@ Animator:
   m_GameObject: {fileID: 120733217}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 04fa0acd34a962149afd78487edebd51, type: 2}
+  m_Controller: {fileID: 9100000, guid: bdde9455a062b444a94bb4bb7d4c7bfc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4180,7 +4180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 0
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -4195,7 +4195,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 3
+  - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -5948,7 +5948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 0
     callback:
       m_PersistentCalls:
         m_Calls:
@@ -5963,7 +5963,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - eventID: 3
+  - eventID: 1
     callback:
       m_PersistentCalls:
         m_Calls:
