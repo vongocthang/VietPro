@@ -56,7 +56,7 @@ public class PlayerControl : MonoBehaviour
             if (onGround == true)
             {
                 Debug.Log("Jump");
-                playerRb.AddForce(Vector2.up * 500);
+                playerRb.AddForce(new Vector2(1*200,1*500) );
             }
         }
 
