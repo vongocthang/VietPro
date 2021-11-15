@@ -4,5 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DragAndDropUI.unity
+    guid: 4bb0a416cce55684ba1e2f42c0cb6bdb
+  - enabled: 1
+    path: Assets/Scenes/PhanTrang.unity
+    guid: e3b08bcdf88de2445a45612ab08c244d
+  - enabled: 1
+    path: Assets/Scenes/RayCast.unity
+    guid: 0b255d6d42c971a4aac8a76857cdf6ea
+  - enabled: 1
+    path: Assets/Scenes/RayCast2D.unity
+    guid: a44afee4d1503d24bb2aca6fa9ab7b92
+  - enabled: 1
+    path: Assets/Scenes/RoomControl.unity
+    guid: fd7507e5f54c6a64789f267992db143a
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ScrollView.unity
+    guid: 8b403d0eabe01ff4fb3ea27dc621d772
+  - enabled: 1
+    path: Assets/Scenes/Sprite Mask.unity
+    guid: 2a10593581812dd4f8a601171ad05174
+  - enabled: 1
+    path: Assets/Scenes/XoaAnh.unity
+    guid: 2a716c194a3351c4189e38cd69c6d679
   m_configObjects: {}
