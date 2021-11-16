@@ -16,16 +16,22 @@ public class PlayerControl : MonoBehaviour
 
     public int countJump = 0;//
 
+    public BoxCollider2D boxCollider;
+    public CircleCollider2D circleCollider;
+
     // Start is called before the first frame update
     void Start()
     {
         uiControl = GameObject.Find("Canvas").GetComponent<UIControl>();
+        boxCollider = GetComponent<BoxCollider2D>();
+        circleCollider = GetComponent<CircleCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
+        SetupCollider();
     }
 
     public void Move()
@@ -34,18 +40,21 @@ public class PlayerControl : MonoBehaviour
         {
             if (onGround == true)
             {
-                Debug.Log("--->Chay");
-                playerRb.transform.Translate(Vector2.left * 3 * Time.deltaTime);
+                uiControl.moveLeft = true;
+                //Debug.Log("--->Chay");
+                playerRb.transform.Translate(Vector2.left * 5 * Time.deltaTime);
                 playerSprite.flipX = true;
                 anim.SetBool("run", true);
-            }    
+            }
         }
         if (uiControl.moveRight == true || Input.GetKey(KeyCode.RightArrow))
         {
+
             if (onGround == true)
             {
-                Debug.Log("Chay");
-                playerRb.transform.Translate(Vector2.right * 3 * Time.deltaTime);
+                uiControl.moveRight = true;
+                //Debug.Log("Chay");
+                playerRb.transform.Translate(Vector2.right * 5 * Time.deltaTime);
                 playerSprite.flipX = false;
                 anim.SetBool("run", true);
             }
@@ -60,70 +69,106 @@ public class PlayerControl : MonoBehaviour
             //Nhảy lần đầu cần đứng trên bề mặt cứng
             if (countJump == 0 && onGround == true)
             {
-                Debug.Log("Nhay lan 1");
+                //Debug.Log("Nhay lan 1");
                 anim.SetBool("jump", true);
-                
+
                 if (uiControl.moveRight == true)
                 {
-                    Debug.Log("Jump khi dang di chuyen");
-                    playerRb.AddForce(new Vector2(1 * 100, 1 * 600));
+                    //Debug.Log("Jump khi dang di chuyen");
+                    playerRb.AddForce(new Vector2(1 * 200, 1 * 500));
                 }
                 if (uiControl.moveLeft == true)
                 {
-                    Debug.Log("Jump khi dang di chuyen");
-                    playerRb.AddForce(new Vector2(-1 * 100, 1 * 600));
+                    //Debug.Log("Jump khi dang di chuyen");
+                    playerRb.AddForce(new Vector2(-1 * 200, 1 * 500));
                 }
                 if (uiControl.moveLeft == false && uiControl.moveRight == false)
                 {
-                    Debug.Log("Jump khi dang dung yen");
-                    playerRb.AddForce(new Vector2(0, 1 * 600));
+                    //Debug.Log("Jump khi dang dung yen");
+                    playerRb.AddForce(new Vector2(0, 1 * 500));
                 }
 
                 countJump = 1;
             }
             if (countJump == 1 && onGround == false)
             {
-                Debug.Log("Nhay lan 2");
+                //Debug.Log("Nhay lan 2");
                 anim.SetBool("jump", true);
-                
+
                 if (uiControl.moveRight == true)
                 {
-                    Debug.Log("Jump khi dang di chuyen");
-                    playerRb.AddForce(new Vector2(1 * 100, 1 * 300));
+                    //Debug.Log("Jump khi dang di chuyen");
+                    playerRb.AddForce(new Vector2(1 * 100, 1 * 400));
                 }
                 if (uiControl.moveLeft == true)
                 {
-                    Debug.Log("Jump khi dang di chuyen");
-                    playerRb.AddForce(new Vector2(-1 * 100, 1 * 300));
+                    //Debug.Log("Jump khi dang di chuyen");
+                    playerRb.AddForce(new Vector2(-1 * 200, 1 * 400));
                 }
                 if (uiControl.moveLeft == false && uiControl.moveRight == false)
                 {
-                    Debug.Log("Jump khi dang dung yen");
-                    playerRb.AddForce(new Vector2(0, 1 * 300));
+                    //Debug.Log("Jump khi dang dung yen");
+                    playerRb.AddForce(new Vector2(0, 1 * 400));
                 }
 
                 countJump = 2;
             }
         }
 
-        if (uiControl.moveLeft == false && uiControl.moveRight == false)
+        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
         {
-            Debug.Log("Dung di chuyen");
+            //Debug.Log("Dung di chuyen");
+            uiControl.moveLeft = false;
+            uiControl.moveRight = false;
             anim.SetBool("run", false);
         }
 
+
+
+        if (uiControl.roll == true)
+        {
+            if (uiControl.moveLeft == true || uiControl.moveRight == true)
+            {
+                anim.SetBool("roll", true);
+            }
+        }
+        else
+        {
+            anim.SetBool("roll", false);
+        }
     }
+
+    public void SetupCollider()
+    {
+        if (anim.GetBool("roll") == true)
+        {
+            circleCollider.enabled = true;
+            boxCollider.enabled = false;
+        }
+        else
+        {
+            circleCollider.enabled = false;
+            boxCollider.enabled = true;
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Ground")
         {
             anim.SetBool("jump", false);
         }
+
+        if (collision.gameObject.tag == "Saw")
+        {
+            anim.Play("death");
+            this.GetComponent<PlayerControl>().enabled = false;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        Debug.Log("Va cham cung voi " + collision.gameObject.name);
+        //Debug.Log("Va cham cung voi " + collision.gameObject.name);
         onGround = true;
         uiControl.jump = false;
         anim.SetBool("ground", true);
@@ -139,7 +184,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        Debug.Log("Kết thúc va chạm cứng với " + collision.gameObject.name);
+        //Debug.Log("Kết thúc va chạm cứng với " + collision.gameObject.name);
         onGround = false;
         anim.SetBool("ground", false);
     }
@@ -148,7 +193,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (collision.tag == "Door")
         {
-            Debug.Log("Va chạm mềm với Cánh cửa");
+            //Debug.Log("Va chạm mềm với Cánh cửa");
         }
     }
 
@@ -156,7 +201,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (collision.tag == "Door")
         {
-            Debug.Log("Kết thúc va chạm mềm với Cánh cửa");
+            //Debug.Log("Kết thúc va chạm mềm với Cánh cửa");
         }
     }
 }

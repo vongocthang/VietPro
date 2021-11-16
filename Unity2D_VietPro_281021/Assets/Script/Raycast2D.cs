@@ -17,21 +17,27 @@ public class Raycast2D : MonoBehaviour
         Vector2 newVector2Right = new Vector2(transform.position.x + 3, transform.position.y);
         Vector2 newVector2Left = new Vector2(transform.position.x - 3, transform.position.y);
 
-        RaycastHit2D hitRight = Physics2D.Raycast(newVector2Right, Vector2.right, 1f);
-        Debug.DrawRay(newVector2Right, Vector2.right * 1f, Color.green);
-        if (hitRight.collider != null)
+        if (moveRight == true)
         {
-            moveRight = false;
-            moveLeft = true;
+            RaycastHit2D hitRight = Physics2D.Raycast(newVector2Right, Vector2.right, 1f);
+            Debug.DrawRay(newVector2Right, Vector2.right * 1f, Color.green);
+            if (hitRight.collider != null)
+            {
+                moveRight = false;
+                moveLeft = true;
+            }
         }
-        RaycastHit2D hitLeft = Physics2D.Raycast(newVector2Left, Vector2.left, 1f);
-        Debug.DrawRay(newVector2Left, Vector2.left * 1f, Color.green);
-        if (hitLeft.collider != null)
+        if (moveLeft == true)
         {
-            moveRight = true;
-            moveLeft = false;
+            RaycastHit2D hitLeft = Physics2D.Raycast(newVector2Left, Vector2.left, 1f);
+            Debug.DrawRay(newVector2Left, Vector2.left * 1f, Color.green);
+            if (hitLeft.collider != null)
+            {
+                moveRight = true;
+                moveLeft = false;
+            }
         }
-
+        
         if (moveRight == true)
         {
             transform.Translate(Vector2.right * 2 * Time.deltaTime);
