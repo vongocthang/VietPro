@@ -6,6 +6,11 @@ using TMPro;
 
 public class ScrollView : MonoBehaviour
 {
+    /// <summary>
+    /// Bỏ auto check moveLeft+moveRight nếu muốn ấn bàn phím
+    /// Chỉ check tại lúc thả tay khỏi nút di chuyển
+    /// </summary>
+
     public class item
     {
         public string anh;

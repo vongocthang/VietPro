@@ -8,6 +8,7 @@ public class UIControl : MonoBehaviour
     public bool moveLeft;
     public bool moveRight;
     public bool jump;
+    PlayerControl player;
 
     // Start is called before the first frame update
     void Start()
