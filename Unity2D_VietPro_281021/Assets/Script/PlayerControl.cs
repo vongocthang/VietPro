@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -19,12 +20,19 @@ public class PlayerControl : MonoBehaviour
     public BoxCollider2D boxCollider;
     public CircleCollider2D circleCollider;
 
+    HeathBar heathBar;
+    TMP_Text heathPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         uiControl = GameObject.Find("Canvas").GetComponent<UIControl>();
         boxCollider = GetComponent<BoxCollider2D>();
         circleCollider = GetComponent<CircleCollider2D>();
+
+        heathBar = transform.GetChild(0).GetComponent<HeathBar>();
+        heathPoint = transform.GetChild(0).GetChild(1).GetComponent<TMP_Text>();
+        heathPoint.text = heathBar.heath.ToString();
     }
 
     // Update is called once per frame
@@ -32,6 +40,11 @@ public class PlayerControl : MonoBehaviour
     {
         Move();
         SetupCollider();
+
+        if (heathBar.heath == 0)
+        {
+            anim.SetBool("death", true);
+        }
     }
 
     public void Move()
@@ -161,7 +174,7 @@ public class PlayerControl : MonoBehaviour
 
         if (collision.gameObject.tag == "Saw")
         {
-            anim.Play("death");
+            anim.SetBool("death", true);
             this.GetComponent<PlayerControl>().enabled = false;
         }
     }
@@ -195,6 +208,8 @@ public class PlayerControl : MonoBehaviour
         {
             //Debug.Log("Va chạm mềm với Cánh cửa");
         }
+
+        
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -202,6 +217,20 @@ public class PlayerControl : MonoBehaviour
         if (collision.tag == "Door")
         {
             //Debug.Log("Kết thúc va chạm mềm với Cánh cửa");
+        }
+
+        if (collision.tag == "Demon")
+        {
+            if (heathBar.heath >= 10)
+            {
+                heathBar.SetHeath(10);
+
+            }
+            else
+            {
+                heathBar.SetHeath(heathBar.heath);
+            }
+            heathPoint.text = heathBar.heath.ToString();
         }
     }
 }

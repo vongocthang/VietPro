@@ -58,12 +58,12 @@ public class UIControl : MonoBehaviour
         if (countClick < 2)
         {
             countClick++;
-            Debug.Log("Click lan " + countClick);
+            //Debug.Log("Click lan " + countClick);
             timeLineClick = Time.time;
         }
         if (countClick == 2)
         {
-            Debug.Log("DoubleClick thanh cong");
+            //Debug.Log("DoubleClick thanh cong");
             roll = true;
             timeLineClick = Time.time;
         }
@@ -75,7 +75,7 @@ public class UIControl : MonoBehaviour
         {
             if (timeLineClick + 0.2f < Time.time)
             {
-                Debug.Log("Reset doubleClick");
+                //Debug.Log("Reset doubleClick");
                 countClick = 0;
             }
         }
@@ -84,7 +84,7 @@ public class UIControl : MonoBehaviour
         {
             if (timeLineClick + 1.9f < Time.time)
             {
-                Debug.Log("Hanh dong cuon kich hoat");
+                //Debug.Log("Hanh dong cuon kich hoat");
                 countClick = 0;
                 roll = false;
             }

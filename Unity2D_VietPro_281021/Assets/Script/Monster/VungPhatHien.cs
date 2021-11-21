@@ -4,28 +4,25 @@ using UnityEngine;
 
 public class VungPhatHien : MonoBehaviour
 {
-    Demon demon;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        demon = transform.GetComponentInParent<Demon>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    public bool see;
+    public Transform player;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("Phat hien Player");
-            demon.follow = true;
-            demon.player = collision.gameObject;
+            //Debug.Log("Phat hien Player");
+            see = true;
+            player = collision.gameObject.transform;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //Debug.Log("Bo theo PLayer");
+            see = false;
         }
     }
 }

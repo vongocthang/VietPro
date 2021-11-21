@@ -10,6 +10,8 @@ TagManager:
   - Follow
   - Ground
   - Saw
+  - Demon
+  - Genie
   layers:
   - Default
   - TransparentFX
@@ -19,9 +21,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Enemy
   - 
   - 
   - 
