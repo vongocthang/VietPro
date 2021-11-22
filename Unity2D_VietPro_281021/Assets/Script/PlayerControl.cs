@@ -32,7 +32,7 @@ public class PlayerControl : MonoBehaviour
 
         heathBar = transform.GetChild(0).GetComponent<HeathBar>();
         heathPoint = transform.GetChild(0).GetChild(1).GetComponent<TMP_Text>();
-        heathPoint.text = heathBar.heath.ToString();
+        heathPoint.text = heathBar.maxHeath.ToString();
     }
 
     // Update is called once per frame

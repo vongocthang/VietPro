@@ -78,6 +78,7 @@ public class ScrollView : MonoBehaviour
         
     }
 
+    //Tạo mới Button
     public void CreateNew()
     {
         Texture2D anhTimThay = null;
@@ -108,6 +109,7 @@ public class ScrollView : MonoBehaviour
         countImageShow++;
     }
 
+    //Xóa Button
     public void RemoveButton()
     {
         for(int i=scrollMenu.transform.GetChild(0).GetChild(0).childCount-1; i>=0;i--)
