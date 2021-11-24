@@ -12,6 +12,7 @@ TagManager:
   - Saw
   - Demon
   - Genie
+  - Coin
   layers:
   - Default
   - TransparentFX

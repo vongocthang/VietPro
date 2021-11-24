@@ -93,6 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872421218480672823}
   - component: {fileID: 872421218480672820}
+  - component: {fileID: 230887458342427332}
   - component: {fileID: 872421218480672816}
   - component: {fileID: 872421218480672817}
   - component: {fileID: 872421218480672821}
@@ -140,6 +141,19 @@ MonoBehaviour:
   countJump: 0
   boxCollider: {fileID: 0}
   circleCollider: {fileID: 0}
+--- !u!114 &230887458342427332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872421218480672818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567bb7a4a83c40b4595f10ba447a4604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: []
 --- !u!212 &872421218480672816
 SpriteRenderer:
   m_ObjectHideFlags: 0

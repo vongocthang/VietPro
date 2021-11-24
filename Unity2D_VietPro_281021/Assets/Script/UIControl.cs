@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class UIControl : MonoBehaviour
 {
@@ -11,13 +12,16 @@ public class UIControl : MonoBehaviour
     public bool roll;
     PlayerControl player;
 
+    public int coin;
+    public TMP_Text showCoin;
+
     public int countClick = 0;//Đếm doubleClick
     public float timeLineClick;//
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        SendMessage("ShowCoin", PlayerPrefs.GetInt("Coin"));
     }
 
     // Update is called once per frame
@@ -89,5 +93,15 @@ public class UIControl : MonoBehaviour
                 roll = false;
             }
         }
+    }
+
+    public void LoadShowAll()
+    {
+        SceneManager.LoadSceneAsync("ShowAll");
+    }
+
+    public void ShowCoin(int coin)
+    {
+        showCoin.text = coin.ToString();
     }
 }

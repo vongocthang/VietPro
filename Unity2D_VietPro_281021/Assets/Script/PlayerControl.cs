@@ -200,6 +200,11 @@ public class PlayerControl : MonoBehaviour
         //Debug.Log("Kết thúc va chạm cứng với " + collision.gameObject.name);
         onGround = false;
         anim.SetBool("ground", false);
+
+        if (collision.gameObject.name == "DiChuyen")
+        {
+            transform.SetParent(collision.gameObject.transform.parent.gameObject.transform);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -209,7 +214,13 @@ public class PlayerControl : MonoBehaviour
             //Debug.Log("Va chạm mềm với Cánh cửa");
         }
 
-        
+        if (collision.tag == "Coin")
+        {
+            Destroy(collision.gameObject);
+            uiControl.coin += 30;
+            PlayerPrefs.SetInt("Coin", PlayerPrefs.GetInt("Coin") + 30);
+            uiControl.gameObject.SendMessage("ShowCoin", PlayerPrefs.GetInt("Coin"));
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)

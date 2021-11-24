@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/XoaAnh.unity
     guid: 2a716c194a3351c4189e38cd69c6d679
+  - enabled: 1
+    path: Assets/Scenes/ShowAll.unity
+    guid: 6ea52fe07776d4e4fa6c94143a640c1e
   m_configObjects: {}
