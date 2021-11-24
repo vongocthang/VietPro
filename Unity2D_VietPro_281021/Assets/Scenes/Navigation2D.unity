@@ -128,6 +128,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[0].name
+      value: bullet1
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[0].size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[1].name
+      value: bullet2
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[1].size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[2].name
+      value: bullet3
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[2].size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[0].prefab
+      value: 
+      objectReference: {fileID: 1596210400}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[1].prefab
+      value: 
+      objectReference: {fileID: 2078550760}
+    - target: {fileID: 230887458342427332, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: pool.Array.data[2].prefab
+      value: 
+      objectReference: {fileID: 1612478632}
     - target: {fileID: 325533623388401657, guid: 5c669aafca62de04797a4d310e4eb5a3,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -303,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567bb7a4a83c40b4595f10ba447a4604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: []
+  pool: []
 --- !u!1 &717573510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1008732949537952767, guid: 5c669aafca62de04797a4d310e4eb5a3,
