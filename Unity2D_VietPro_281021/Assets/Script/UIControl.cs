@@ -18,17 +18,25 @@ public class UIControl : MonoBehaviour
     public int countClick = 0;//Đếm doubleClick
     public float timeLineClick;//
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
         SendMessage("ShowCoin", PlayerPrefs.GetInt("Coin"));
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         ExitDoubleClick();
+
+        
     }
+
+    
 
     public void MoveLeft()
     {

@@ -13,6 +13,8 @@ TagManager:
   - Demon
   - Genie
   - Coin
+  - bullet
+  - Vung Phat Hien
   layers:
   - Default
   - TransparentFX

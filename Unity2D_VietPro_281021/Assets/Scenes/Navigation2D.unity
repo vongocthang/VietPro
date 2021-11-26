@@ -183,10 +183,25 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 872421218375587439, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 872421218480672818, guid: 5c669aafca62de04797a4d310e4eb5a3,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 872421218480672820, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: bulletPos
+      value: 
+      objectReference: {fileID: 1612478633}
+    - target: {fileID: 872421218480672820, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: bulletRate
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 872421218480672823, guid: 5c669aafca62de04797a4d310e4eb5a3,
         type: 3}
@@ -243,6 +258,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1008732949537952767, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573601955271889973, guid: 5c669aafca62de04797a4d310e4eb5a3,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 987148858}
     - target: {fileID: 2573601955271889973, guid: 5c669aafca62de04797a4d310e4eb5a3,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -335,25 +360,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab82eca74c40a304681449a5b25861ff, type: 3}
---- !u!1 &573302334 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 872421218480672818, guid: 5c669aafca62de04797a4d310e4eb5a3,
-    type: 3}
-  m_PrefabInstance: {fileID: 237510965}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &573302335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573302334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 567bb7a4a83c40b4595f10ba447a4604, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pool: []
 --- !u!1 &717573510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1008732949537952767, guid: 5c669aafca62de04797a4d310e4eb5a3,
@@ -497,6 +503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4336139028597326255, guid: 7dca56df20039f642b957e1d205e1e32,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 987148858}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dca56df20039f642b957e1d205e1e32, type: 3}
 --- !u!1 &787886103
@@ -671,6 +682,89 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &987148856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987148859}
+  - component: {fileID: 987148858}
+  - component: {fileID: 987148857}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &987148857
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987148856}
+  m_Enabled: 1
+--- !u!20 &987148858
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987148856}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &987148859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987148856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.6, y: 8.5, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1071587998
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,6 +1045,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8581727168334167681, guid: 0e79d894662d15a4e983ad7d5da09417,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8581727168864310848, guid: 0e79d894662d15a4e983ad7d5da09417,
         type: 3}
       propertyPath: m_RootOrder
@@ -1020,6 +1119,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 374163816, guid: 21d38c6e1fa2c6c4a914c973743f4309, type: 3}
+      propertyPath: m_TagString
+      value: Vung Phat Hien
+      objectReference: {fileID: 0}
+    - target: {fileID: 6903250561495845207, guid: 21d38c6e1fa2c6c4a914c973743f4309,
+        type: 3}
+      propertyPath: m_TagString
+      value: Vung Phat Hien
+      objectReference: {fileID: 0}
     - target: {fileID: 6903250563132225317, guid: 21d38c6e1fa2c6c4a914c973743f4309,
         type: 3}
       propertyPath: m_Name
@@ -1097,8 +1205,8 @@ GameObject:
   - component: {fileID: 1596210405}
   m_Layer: 0
   m_Name: Bullet (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: bullet
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
@@ -1114,7 +1222,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 237510966}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1596210402
 SpriteRenderer:
@@ -1195,6 +1303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  timeDisable: 10
 --- !u!50 &1596210405
 Rigidbody2D:
   serializedVersion: 4
@@ -1231,7 +1340,7 @@ GameObject:
   - component: {fileID: 1612478634}
   m_Layer: 0
   m_Name: Bullet (3)
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1248,7 +1357,7 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 237510966}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1612478634
 CircleCollider2D:
@@ -1260,7 +1369,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.015429593, y: -0.059574094}
@@ -1350,6 +1459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  timeDisable: 10
 --- !u!1 &1692116184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1363,7 +1473,7 @@ GameObject:
   - component: {fileID: 1692116187}
   m_Layer: 0
   m_Name: VungTanCong
-  m_TagString: Untagged
+  m_TagString: Vung Phat Hien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1426,7 +1536,7 @@ GameObject:
   - component: {fileID: 2078550765}
   m_Layer: 0
   m_Name: Bullet (2)
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1443,7 +1553,7 @@ Transform:
   m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 237510966}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2078550762
 Rigidbody2D:
@@ -1529,8 +1639,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
---- !u!60 &2078550765
-PolygonCollider2D:
+  timeDisable: 10
+--- !u!58 &2078550765
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1539,28 +1650,12 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
-    newSize: {x: 2.56, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.07985273, y: -0.19483843}
-      - {x: -0.035699584, y: -0.17853788}
-      - {x: -0.010065894, y: -0.14873119}
-      - {x: -0.024774143, y: -0.11389274}
-      - {x: -0.05789207, y: -0.08834378}
-      - {x: -0.11266622, y: -0.08318263}
-      - {x: -0.5418475, y: -0.12470984}
+  m_Offset: {x: -0.0906229, y: -0.14590158}
+  serializedVersion: 2
+  m_Radius: 0.062971644
 --- !u!1 &7960620266649414164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,7 +1921,7 @@ GameObject:
   - component: {fileID: 7960620267731435805}
   m_Layer: 10
   m_Name: VungPhatHien
-  m_TagString: Untagged
+  m_TagString: Vung Phat Hien
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
