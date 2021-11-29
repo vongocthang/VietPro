@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Playfab.unity
+- path: Assets/Scenes/PhanTrang.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
